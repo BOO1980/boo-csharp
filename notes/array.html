@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      What does this code do?
+
+string[] colorOptions = {"Red", "Espresso", "White", "Navy" };
+foreach (var color in colorOptions)
+{
+   color = color.ToLower();
+   Console.WriteLine(color);
+}
+Your choice: incorrect -
+Displays each of the colors to the console in lowercase
+
+Correct -
+Generates a syntax error because the foreach iteration variable cannot be changed within the foreach
+
+Incorrect -
+Displays each of the colors to the console as they were defined
+    </body>
+</html>

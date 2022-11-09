@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+   In the following code, what effect does marking the field as static have?
+
+class Repository
+{
+   private static string _connStr;
+}
+Incorrect -
+It prevents any finalizers for _connStr from running until the app is closing.
+
+Correct -
+It ensures that all Repository instances share one single copy of _connStr.
+
+Your choice: incorrect -
+It causes the value of _connStr to be preserved between method calls.
+
+Incorrect -
+It ensures that all code running on the same thread shares one single thread-local copy of _connStr.     <div>TODO write content</div>
+    </body>
+</html>

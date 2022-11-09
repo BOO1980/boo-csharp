@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        Is it possible for a class to implement both of these interfaces, while keeping separate implementations of each?
+
+public interface IOne { void DoSomething(string x); }
+public interface ITwo { void DoSomething(string x); }
+Correct -
+Yes, but only if the class implements at least one of the DoSomething() methods explicitly.
+
+Incorrect -
+Yes, but only if both interfaces are declared to be contravariant.
+
+Incorrect -
+No. Implementing both interfaces will cause a compiler error because of the DoSomething() name collision.
+
+Your choice: incorrect -
+No, because both interfaces will necessarily share the DoSomething() implementation.
+   
+    
+Interfaces can help us with which of the following?
+
+Your choice: correct -
+Extensibility
+
+Incorrect -
+Performance
+
+Incorrect -
+Multi-threading
+
+
+What is the best way to think of an Interface?
+
+Your choice: incorrect -
+A base class
+
+Incorrect -
+A collection of methods
+
+Incorrect -
+A catalog
+
+Correct -
+A contract
+
+
+What happens if a Class does not implement all members of an Interface?
+
+Correct -
+The class will not build
+
+Incorrect -
+The class will build and run successfully
+
+Your choice: incorrect -
+The class will build but thrown an error at runtime
+
+What approach should we use if we need to add a member to an existing interface?
+
+Incorrect -
+Wrap the member in a virtual method call
+
+Incorrect -
+Completely rewrite the interface
+
+Your choice: incorrect -
+Add the member to the existing interface
+
+Correct -
+Use interface inheritance to create a new interface with the added member
+   
+
+When we say "Program to an abstraction", we mean which of the following?
+
+Incorrect -
+Use a specific class
+
+Your choice: correct -
+Use an interface
+
+Incorrect -
+Use a custom object
+
+Incorrect -
+Use a 3rd party library
+
+implement all members of both interfaces.
+
+Your choice: incorrect -
+implement only the members of the main interface.
+
+Incorrect -
+implement only the members of the inherited interface.
+
+Which of the following is an Interface in the .NET Base Class Library?
+
+Incorrect -
+Queue
+
+Incorrect -
+List<T>
+
+Your choice: incorrect -
+Stack
+
+Correct -
+IEnumerable
+
+What is an explicit interface?
+
+Your choice: incorrect -
+The set of members defined with the explicit keyword.
+
+Incorrect -
+The set of public members defined in a class.
+
+Correct -
+A type defined with the interface keyword.
+
+Question 7 of 10
+What interfaces can we implement to create a custom formatter for use in composite format strings?
+
+Incorrect -
+IFormat and ICustom
+
+Your choice: correct -
+IFormatProvider and ICustomFormatter
+
+Incorrect -
+IProvider and IFormatter
+
+Incorrect -
+IFormatter and ICustom
+    </body>
+</html>

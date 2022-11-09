@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+     What does Task.FromResult do?
+
+Your choice: correct -
+Represents a Task with a value, but does not start any new threads
+
+Incorrect -
+Starts an asynchronous operation that runs for 1 millisecond and then returns a value
+
+How do we get the result, and setup a continuation in .NET 4.5?
+
+Your choice: incorrect -
+By calling the Result property on a Task
+
+Correct -
+By using the keyword await, to await the result of a Task
+
+Incorrect -
+You don't have to do anything, it works when marking a method as async
+
+What is the recommended way to get a result from a Task?
+
+Correct -
+Setup a continuation and use the Task passed to the method
+
+Incorrect -
+Use the Result property without a continuation
+
+Your choice: incorrect -
+Use OnCompleted on the Awaiter after doing ConfigureAwait
+
+
+What is the asynchronous pattern used for WebClient.DownloadStringAsync?
+
+Incorrect -
+The Asynchronous Event Pattern
+
+Your choice: correct -
+The Event Based Asynchronous Pattern
+
+Incorrect -
+The Event Driven Pattern
+
+What commonly causes deadlocks?
+
+Incorrect -
+Deadlocks never occur in my applications
+
+Incorrect -
+Forgetting to mark something as async
+
+Your choice: correct -
+Using the property Result or the method Wait on a Task to force a block
+
+What is an unreliable application?
+
+Incorrect -
+An application that uses asynchronous + parallel approaches
+
+Incorrect -
+An application that does not use asynchronous approaches
+
+Your choice: correct -
+An application that crashes or does not tell us what it is doing
+
+How do we force a block, without deadlocking?
+
+Incorrect -
+You can't
+
+Incorrect -
+By calling the Result property on a new Thread
+
+Your choice: correct -
+By wrapping the asynchronous call in a new Task.Run
+
+What is the legacy class used to interact with web servers?
+
+Your choice: incorrect -
+HttpClient
+
+Correct -
+WebClient
+
+Incorrect -
+WebSiteDownloader
+
+A method can only have 1 await inside of it.
+
+Incorrect -
+True
+
+Your choice: correct -
+False
+
+Asynchronous and Parallel Programming can be used together
+
+Incorrect -
+False
+
+Your choice: correct -
+True
+
+How many members have to be implemented on an awaiter type? (Hint: Recall the ButtonAwaiter implementation.)
+
+Incorrect -
+2
+
+Incorrect -
+4
+
+Incorrect -
+1
+
+Your choice: correct -
+3
+
+Incorrect -
+5
+    </body>
+</html>

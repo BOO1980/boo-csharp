@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       Consider the following code:
+
+using (StreamReader fs = new StreamReader(@"C:\logs.txt"))
+{
+   ReadLogs(fs);
+}
+What construct will the using statement be expanded to during compilation?
+Your choice: incorrect -
+It depends on whether StreamReader can throw exceptions or not.
+
+Incorrect -
+A try ... catch ... finally block
+
+Incorrect -
+A try ... catch block
+
+Correct -
+A try ... finally block
+    </body>
+</html>

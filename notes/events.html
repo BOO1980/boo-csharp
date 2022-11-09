@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+                          <ol><li><strong>Question: </strong>If NameChanged is an event of type NameChangedDelegate, which of the following snippets is legal?
+            <ul><li>book.NameChanged += new NameChangedDelegate(OnNameChanged)</li>
+                <li>book.NameChanged = null</li>
+                 <li>book.NameChanged = new NameChangedDelegate(OnNameChange)</li>
+                 <li>protected</li>
+                </ul>
+                <p><strong>Answer:</strong><p>Internal</p>
+            </ol>
+        Multiple objects can subscribe to an event?
+
+Incorrect -
+False
+
+Your choice: correct -
+True
+
+How do WinRT events differ from .NET events?
+
+Incorrect -
+No null-check is needed prior to raising the event
+
+Your choice: correct -
+Add and remove accessors are asymmetric using an EventRegistrationToken
+
+Incorrect -
+The delegate type used for the event handler doesn't return void
+    </body>
+    
+    What should you always do before raising an event?
+
+Incorrect -
+Validate the event signature
+
+Your choice: incorrect -
+Access the underlying delegate and invoke it immediately
+
+Correct -
+Ensure that the delegate isn't null
+
+Incorrect -
+None of the above
+
+What is "Delegate Inference"?
+
+Correct -
+The compiler will "infer" the delegate to use and write the code to instantiate it
+
+Your choice: incorrect -
+The compiler will "infer" which method to call when an event is raised
+
+Incorrect -
+C# doesn't support delegate inference
+
+Incorrect -
+The compiler will "infer" which event to raise
+
+How do you route data between threads in a Windows Forms application?
+
+Incorrect -
+Call AsyncInvoke() on the form and pass an event instance and args
+
+Incorrect -
+It's not possible in Windows Forms
+
+Your choice: incorrect -
+By using an event
+
+Correct -
+Call BeginInvoke() on the 
+
+What is Func<t,tresult>?
+
+Incorrect -
+A built-in event type that returns no value
+
+Incorrect -
+A built-in delegate type that returns no value
+
+Your choice: correct -
+A built-in delegate type that accepts multiple input types and returns a value
+
+Incorrect -
+A built-in event type that accepts multiple input types and returns a value
+</html>
+
+What is the role of events?
+
+Incorrect -
+Provide compiler switch notifications
+
+Incorrect -
+None of the above
+
+Your choice: correct -
+Provide notifications to other objects
+
+Incorrect -
+Simulate method calls
+
+

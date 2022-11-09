@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+You wish to invoke a native unmanaged Win32 method, GetLastError, which is implemented in kernel32.dll. Which answer shows a correct declaration that will allow you to do this?
+
+Your choice: incorrect -
+[System.Runtime.InteropServices.DllImport("kernel32")] 
+pinvoke uint GetLastError();
+Incorrect -
+[System.Runtime.InteropServices.PInvoke("kernel32")] 
+extern uint GetLastError();
+Correct -
+[System.Runtime.InteropServices.DllImport("kernel32")]
+static extern uint GetLastError();
+Incorrect -
+[System.Runtime.InteropServices.PInvoke("kernel32")] 
+static extern uint GetLastError();
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       What is the difference between these two code snippets?
+
+var value1 = (MyClass)source;
+and
+var value2 = source as MyClass;
+Incorrect -
+If the conversion fails, then the first snippet sets value1 to null, but the second snippet throws an exception.
+
+Incorrect -
+The first snippet only compiles if an explicit cast exists from the type of source to MyClass, the second snippet requires an implicit cast to exist.
+
+Correct -
+If the conversion fails, then the first snippet throws an exception, but the second snippet sets value2 to null.
+
+Your choice: incorrect -
+value1 is statically typed as MyClass, but value2 is dynamically typed at runtime to the actual type source refers to.
+  
+
+To test a guard clause that throws an exception:
+
+Correct -
+There's an attribute for that.
+
+Incorrect -
+You can't test for exceptions.
+
+Incorrect -
+All of these.
+
+Your choice: incorrect -
+Set up the exception in the Test Explorer.
+    
+    </body>
+</html>
