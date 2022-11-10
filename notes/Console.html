@@ -5,22 +5,46 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
+
+<head>
+    <title>Console</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Console</h1>
+    <h2>Create an app</h2>
+    <ul>
+        <li>In your command prompt run the following command to create your app</li>
+        <code>dotnet new console -o MyApp -f net7.0</code>
+        <li>Then navigate to the directory created by the previous command</li>
+        <code>cd MyApp</code>
+        <li>The dot net new console command creates a new console app for you</li>
+        <li>The -o parameter create a directory name MyApp where your app is stored and populates it with required files
+        </li>
+        <li>The -f paramete indicates your'e createing a .NET 7 application.</li>
+        <li>The command cd MyApp changes your current directory to the one you just created for the new app</li>
+        <li>The main file in the MyApp folder is called program.cs. By default it already contains the necessary code to
+            write "Hello, World!" to the Console.</li>
         <h3>Console.WriteLine()</h3>
-        <ul><li>Writes the current line to the output stream</li></ul>
+        <ul>
+            <li>Writes the current line to the output stream</li>
+        </ul>
         <h3>Console.ReadKey()</h3>
-        <ul><li>Waits for the user to press a function or key before the application terminates</li></ul>
-    
+        <ul>
+            <li>Waits for the user to press a function or key before the application terminates</li>
+        </ul>
+
         <h1>Todo</h1>
         <ul>
-            <li><a href="https://msdn.microsoft.com/en-us/library/828t9b9h(v=vs.110).aspx">WriteLine(String, Object) example</a><li>
-            <li> <a href="https://msdn.microsoft.com/en-us/library/471w8d85(v=vs.110).aspx">Readline 2nd example</a></li>
+            <li><a href="https://msdn.microsoft.com/en-us/library/828t9b9h(v=vs.110).aspx">WriteLine(String, Object)
+                    example</a>
+            <li>
+            <li> <a href="https://msdn.microsoft.com/en-us/library/471w8d85(v=vs.110).aspx">Readline 2nd example</a>
+            </li>
             <li>Console.out.newline</li>
-        
-    </body>
+
+</body>
+
 </html>
