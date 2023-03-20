@@ -1,0 +1,15 @@
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\bin\Debug\net6.0\HelloHayley.exe
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\bin\Debug\net6.0\HelloHayley.deps.json
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\bin\Debug\net6.0\HelloHayley.runtimeconfig.json
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\bin\Debug\net6.0\HelloHayley.dll
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\bin\Debug\net6.0\HelloHayley.pdb
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\obj\Debug\net6.0\HelloHayley.csproj.AssemblyReference.cache
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\obj\Debug\net6.0\HelloHayley.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\obj\Debug\net6.0\HelloHayley.AssemblyInfoInputs.cache
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\obj\Debug\net6.0\HelloHayley.AssemblyInfo.cs
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\obj\Debug\net6.0\HelloHayley.csproj.CoreCompileInputs.cache
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\obj\Debug\net6.0\HelloHayley.dll
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\obj\Debug\net6.0\refint\HelloHayley.dll
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\obj\Debug\net6.0\HelloHayley.pdb
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\obj\Debug\net6.0\HelloHayley.genruntimeconfig.cache
+C:\Repos\Boopedia2022\boo-web-development\frameworks\boo-.net\programming\boo-csharp\tutorials\dotnet-microsoft-learn\HelloHayley\obj\Debug\net6.0\ref\HelloHayley.dll

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "QSi5QU19IyGCBWrxrB7f86Dh1bJVcFmerzXu7TazqrBJvmBsuHNeU07KdhDEbMZfF6hEirAQJsINrCtpmhELkw==",
+  "success": true,
+  "projectFilePath": "C:\\Repos\\Boopedia2022\\boo-web-development\\frameworks\\boo-.net\\programming\\boo-csharp\\tutorials\\dotnet-microsoft-learn\\HelloHayley\\HelloHayley.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hayley\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Hayley\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Hayley\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Hayley\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.15\\microsoft.netcore.app.host.win-x64.6.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
