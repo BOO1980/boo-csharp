@@ -1,2 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Hayley!");
+var name = "Hayley";
+Console.WriteLine("Hello, " + name + "!");
+
+
